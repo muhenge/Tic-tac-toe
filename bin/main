@@ -1,2 +1,15 @@
 #!/usr/bin/env ruby
-puts "Hello World"
+count = 1
+loop do
+  player = count.odd? ? 1 : 2
+  puts "Is the turn of the player #{player}. Select one space (1-9)\n\n"
+  puts(" 1 | 2 | 3 ")
+  puts("-----------")
+  puts(" 4 | 5 | 6 ")
+  puts("-----------")
+  puts(" 7 | 8 | 9 ")
+  puts
+  space = gets.chomp()
+  break if(count>9)
+  count += 1
+end
