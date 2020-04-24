@@ -1,7 +1,8 @@
 #!/usr/bin/env ruby
 
 count = 1
-loop do
+game_on = true
+while game_on
   player = count.odd? ? 1 : 2
   puts "Is the turn of the player #{player}. Select one space (1-9)\n\n"
 
@@ -23,6 +24,11 @@ loop do
 
   draw = true
   puts "it's a draw!" if draw
+
+
+  if winner
+    game_on = false
+  end
 end
 
 
