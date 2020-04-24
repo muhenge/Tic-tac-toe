@@ -11,7 +11,19 @@ loop do
   puts("-----------")
   puts(" 7 | 8 | 9 ")
   puts
-  space = gets.chomp()
-  break if(count>9)
+  user_input = gets.chomp()
+  
   count += 1
+
+  valid = true
+  puts "invalid move" unless valid
+
+  winner = true
+  puts "winner player #{player}" if winner 
+
+  draw = true
+  puts "it's a draw!" if draw
 end
+
+
+
