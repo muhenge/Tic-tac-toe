@@ -1,8 +1,10 @@
 #!/usr/bin/env ruby
+
 count = 1
 loop do
   player = count.odd? ? 1 : 2
   puts "Is the turn of the player #{player}. Select one space (1-9)\n\n"
+
   puts(" 1 | 2 | 3 ")
   puts("-----------")
   puts(" 4 | 5 | 6 ")
