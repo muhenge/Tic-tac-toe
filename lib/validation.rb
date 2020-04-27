@@ -3,7 +3,7 @@ class Validation
   attr_accessor :user_input
   def initialize
     @user_input = user_input
-    @token = [1, 2, 3, 4, 5, 6, 7, 8 , 9]
+    @token = [1, 2, 3, 4,5, 6, 7, 8 , 9]
   end
 
   public
@@ -14,11 +14,20 @@ class Validation
     end
     false 
   end
+
+  def is_avaliable?
+    if @token[@user_input-1] == 'x' or @token[@user_input-1] == 'o'
+      false
+    else
+      true
+    end
+  end
 end
 
-instance = Validation.new
-instance.user_input = 10
-instance.is_valid? ? (puts "is valid") : (puts "is not valid")
+# instance = Validation.new
+# instance.user_input = 4
+# instance.is_avaliable?
+# instance.is_avaliable? ? (puts "is valid") : (puts "is not valid")
 
 #arr = [1, 2, 3, 4, 5, 6, 7, 8 , 9]
 #val = 3
