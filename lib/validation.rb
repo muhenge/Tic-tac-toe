@@ -16,11 +16,7 @@ class Validation
   end
 
   def is_avaliable?
-    if @token[@user_input-1] == 'x' or @token[@user_input-1] == 'o'
-      false
-    else
-      true
-    end
+    @token[@user_input-1] == 'x' or @token[@user_input-1] == 'o' ? false : true
   end
 end
 
