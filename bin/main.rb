@@ -56,7 +56,7 @@ catch :game do
       when 'yes' then puts "restarting game\n\n"
       else puts 'choice a valid word'
       end
-      break if play_again == 'yes' || play_again == 'no'
+      break if (play_again.include? 'yes') || (play_again.include? == 'no')
     end
   end
 end
