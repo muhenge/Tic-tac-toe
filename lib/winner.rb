@@ -3,10 +3,7 @@ class Winner
 
   DIAGONAL = [0,4,8,2,4,6]
 
-
-  def initialize(arr)
-    @arr = arr
-  end
+  attr_writer :arr
   private 
 
   def horizontal_winning_move?

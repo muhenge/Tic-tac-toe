@@ -24,13 +24,11 @@ class Validation
   end
 end
 
-# instance = Validation.new
 # instance.user_input = 4
 # instance.is_avaliable?
 # instance.is_avaliable? ? (puts "is valid") : (puts "is not valid")
 
 # instance = Validation.new
-# instance.user_input = "h"
 # if instance.is_valid?
 #   if instance.is_avaliable?
 #     instance.add_symbol(3)
