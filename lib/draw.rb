@@ -1,8 +1,7 @@
 class Draw
-    attr_writer :count
-    def is_draw?
-        if @count > 9 
-            return true
-        end
-    end
+  attr_writer :count
+
+  def is_draw?
+    return true if @count > 9
+  end
 end
