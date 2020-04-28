@@ -22,8 +22,8 @@ catch :game do
       loop do
         user_input = gets.chomp
         valid.user_input = user_input.to_i
-        if valid.is_valid?
-          if valid.is_avaliable?
+        if valid.valid?
+          if valid.avaliable?
             puts "you choosed the: #{user_input}"
             valid.add_symbol(count)
             break
@@ -38,8 +38,8 @@ catch :game do
       count += 1
       draw.count = count
       puts "winner player #{player}" if win.winning_move
-      puts 'it\'s a draw!' if draw.is_draw?
-      game_on = false if win.winning_move or draw.is_draw?
+      puts 'it\'s a draw!' if draw.draw?
+      game_on = false if win.winning_move or draw.draw?
     end
     puts
     puts(" #{valid.token[0]} | #{valid.token[1]} | #{valid.token[2]} ")
@@ -48,7 +48,7 @@ catch :game do
     puts('-----------')
     puts(" #{valid.token[6]} | #{valid.token[7]} | #{valid.token[8]} ")
     puts
-    puts "Do you want to play again? (yes, no)"
+    puts 'Do you want to play again? (yes, no)'
     loop do
       play_again = gets.chomp
       case play_again
