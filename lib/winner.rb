@@ -1,5 +1,5 @@
 class Winner
-  DIAGONAL = [0, 4, 8, 2, 4, 6].freeze
+  DIAG = [0, 4, 8, 2, 4, 6].freeze
 
   attr_writer :arr
 
@@ -26,7 +26,7 @@ class Winner
   def diagonal?
     index = 0
     2.times do
-      %w[x o].each { |x| return true if [@arr[DIAGONAL[index]], @arr[DIAGONAL[index + 1]], @arr[DIAGONAL[index + 2]]].all?(x) }
+      %w[x o].each { |x| return true if [@arr[DIAG[index]], @arr[DIAG[index + 1]], @arr[DIAG[index + 2]]].all?(x) }
       index += 3
     end
     false
