@@ -4,37 +4,31 @@ class Winner
 
   private
 
-  def horizontal_winning_move?
+  def horizontal?
     index = 0
     3.times do
-      if (@arr[index] == 'x' && @arr[index + 1] == 'x' && @arr[index + 2] == 'x') || (@arr[index] == 'o' && @arr[index + 1] == 'o' && @arr[index + 2] == 'o')
-        return true
-      end
-
+      return true if (@arr[index] == 'x' && @arr[index + 1] == 'x' && @arr[index + 2] == 'x')
+      return true if (@arr[index] == 'o' && @arr[index + 1] == 'o' && @arr[index + 2] == 'o')
       index += 3
     end
     false
   end
 
-  def vertical_winning_move?
+  def vertical?
     index = 0
     3.times do
-      if (@arr[index] == 'x' && @arr[index + 3] == 'x' && @arr[index + 6] == 'x') || (@arr[index] == 'o' && @arr[index + 3] == 'o' && @arr[index + 6] == 'o')
-        return true
-      end
-
+      return true if (@arr[index] == 'x' && @arr[index + 3] == 'x' && @arr[index + 6] == 'x')
+      return true if (@arr[index] == 'o' && @arr[index + 3] == 'o' && @arr[index + 6] == 'o')
       index += 1
     end
     false
   end
 
-  def diagonal_winning_move?
+  def diagonal?
     index = 0
     2.times do
-      if (@arr[DIAGONAL[index]] == 'x' && @arr[DIAGONAL[index + 1]] == 'x' && @arr[DIAGONAL[index + 2]] == 'x') || (@arr[DIAGONAL[index]] == 'o' && @arr[DIAGONAL[index + 1]] == 'o' && @arr[DIAGONAL[index + 2]] == 'o')
-        return true
-      end
-
+      return true if (@arr[DIAGONAL[index]] == 'x' && @arr[DIAGONAL[index + 1]] == 'x' && @arr[DIAGONAL[index + 2]] == 'x')
+      return true if (@arr[DIAGONAL[index]] == 'o' && @arr[DIAGONAL[index + 1]] == 'o' && @arr[DIAGONAL[index + 2]] == 'o')
       index += 3
     end
     false
@@ -43,6 +37,6 @@ class Winner
   public
 
   def winning_move
-    horizontal_winning_move? or vertical_winning_move? or diagonal_winning_move? ? true : false
+    horizontal? or vertical? or diagonal? ? true : false
   end
 end

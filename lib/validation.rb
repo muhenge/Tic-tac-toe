@@ -7,14 +7,14 @@ class Validation
     @token = [1, 2, 3, 4, 5, 6, 7, 8, 9]
   end
 
-  def is_valid?
+  def valid?
     (1..9).each do |x|
       return true if x == @user_input
     end
     false
   end
 
-  def is_avaliable?
+  def avaliable?
     @token[@user_input - 1] == 'x' or @token[@user_input - 1] != 'o'
   end
 
