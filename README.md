@@ -1,43 +1,36 @@
-# Project Name
+# Tic-Tac-Toe
 
-> One paragraph statement about the project.
+> This project is a simulation of Tic-Tac-Toe game.
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+## Descriptions of the Game
+
+This is a game for two players, in this game there is board with a 3x3 grid where players can put 'x' or 'o' in each space, and the player who has three symbols aligned horizontally, vertically or diagonally is the winner of the game.
+
+## instructions
+
+In this game each space form the board is representer by a number from 1 to 9, the start player chooses the number to play and the program assigns the symbol automatically and start the game, and switches the role between two players every turn until it finds a winner or a draw (no winner/no loser).
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- Ruby
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+for the live version [Click here](https://repl.it/@LOctavio/Tic-tac-toe)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- install [Ruby](https://www.ruby-lang.org/en/)
+
 ### Setup
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- Clone the repository ```https://github.com/muhenge/Tic-tac-toe```
 
 ## Authors
 
@@ -55,9 +48,9 @@ To get a local copy up and running follow these simple example steps.
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!
+Contributions and advices are welcomed
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/muhenge/Tic-tac-toe/issues).
 
 ## Show your support
 
