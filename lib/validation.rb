@@ -15,7 +15,8 @@ class Validation
   end
 
   def avaliable?
-    @token[@user_input - 1] == 'x' or @token[@user_input - 1] != 'o'
+    %w[x o].each { |x| return false if @token[@user_input - 1] == x }
+    true
   end
 
   def add_symbol(turn)
