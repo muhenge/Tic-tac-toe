@@ -2,6 +2,8 @@
 
 > This project is a simulation of Tic-Tac-Toe game.
 
+![screenshot](img/Screenshot.png) 
+
 ## Descriptions of the Game
 
 This is a game for two players, in this game there is board with a 3x3 grid where players can put 'x' or 'o' in each space, and the player who has three symbols aligned horizontally, vertically or diagonally is the winner of the game.
