@@ -2,8 +2,6 @@
 
 > This project is a simulation of Tic-Tac-Toe game.
 
-![screenshot](./app_screenshot.png)
-
 ## Descriptions of the Game
 
 This is a game for two players, in this game there is board with a 3x3 grid where players can put 'x' or 'o' in each space, and the player who has three symbols aligned horizontally, vertically or diagonally is the winner of the game.
@@ -18,7 +16,7 @@ In this game each space form the board is representer by a number from 1 to 9, t
 
 ## Live Demo
 
-for the live version [Click here](https://repl.it/@LOctavio/Tic-tac-toe)
+For the live version [Click here](https://repl.it/@LOctavio/Tic-tac-toe)
 
 
 ## Getting Started
@@ -34,17 +32,17 @@ for the live version [Click here](https://repl.it/@LOctavio/Tic-tac-toe)
 
 ## Authors
 
-👤 **Author1**
+👤 **Luis Octavio Ramirez Cruz**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@LOctavio](https://github.com/LOctavio)
+- Twitter: [@Luis Octavio Ram_ram431](https://twitter.com/Octavio_ram431)
+- Linkedin: [linkedin](https://www.linkedin.com/in/luis-octavio-ramirez-cruz-714521178/)
 
-👤 **Author2**
+👤 **Ngenzi Mugunga Herve**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@muhenge](https://github.com/muhenge)
+- Twitter: [@NGENZIHerve](https://twitter.com/NGENZIHerve)
+- Linkedin: [linkedin](https://www.linkedin.com/in/mugunga-herve-a62a0ab9/ )
 
 ## 🤝 Contributing
 
