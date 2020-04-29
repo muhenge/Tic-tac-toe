@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
-require '../lib/validation.rb'
-require '../lib/winner.rb'
-require '../lib/draw.rb'
+require './lib/validation.rb'
+require './lib/winner.rb'
+require './lib/draw.rb'
 end_program = false
 
 def board(arr)

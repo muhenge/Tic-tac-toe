@@ -1,63 +1,62 @@
-# Project Name
+# Tic-Tac-Toe
 
-> One paragraph statement about the project.
+> This project is a simulation of Tic-Tac-Toe game.
 
-![screenshot](./app_screenshot.png)
+![screenshot](img/Screenshot.png) 
 
-Additional description about the project and its features.
+## Descriptions of the Game
+
+This is a game for two players, in this game there is board with a 3x3 grid where players can put 'x' or 'o' in each space, and the player who has three symbols aligned horizontally, vertically or diagonally is the winner of the game.
+
+## Instructions
+
+### Start the game 
+
+First of all, you need to run the file with the name main.rb. To run the file you need to open the terminal inside the project and run ```ruby bin/main.rb```.
+
+### Playing the game
+
+In this game each space form the board is representer by a number from 1 to 9, each player chooses the number inside the terminal to play and the program assigns the symbol automatically and start the game, and switches the role between the two players every turn until it finds a winner or a draw (no winner/no loser).
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- Ruby
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+For the live version [Click here](https://repl.it/@LOctavio/Tic-tac-toe)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- install [Ruby](https://www.ruby-lang.org/en/)
+
 ### Setup
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- Clone the repository ```https://github.com/muhenge/Tic-tac-toe```
 
 ## Authors
 
-👤 **Author1**
+👤 **Luis Octavio Ramirez Cruz**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@LOctavio](https://github.com/LOctavio)
+- Twitter: [@Luis Octavio Ram_ram431](https://twitter.com/Octavio_ram431)
+- Linkedin: [linkedin](https://www.linkedin.com/in/luis-octavio-ramirez-cruz-714521178/)
 
-👤 **Author2**
+👤 **Ngenzi Mugunga Herve**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@muhenge](https://github.com/muhenge)
+- Twitter: [@NGENZIHerve](https://twitter.com/NGENZIHerve)
+- Linkedin: [linkedin](https://www.linkedin.com/in/mugunga-herve-a62a0ab9/ )
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!
+Contributions and advices are welcomed
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/muhenge/Tic-tac-toe/issues).
 
 ## Show your support
 
@@ -68,7 +67,3 @@ Give a ⭐️ if you like this project!
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
