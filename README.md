@@ -6,9 +6,15 @@
 
 This is a game for two players, in this game there is board with a 3x3 grid where players can put 'x' or 'o' in each space, and the player who has three symbols aligned horizontally, vertically or diagonally is the winner of the game.
 
-## instructions
+## Instructions
 
-In this game each space form the board is representer by a number from 1 to 9, the start player chooses the number to play and the program assigns the symbol automatically and start the game, and switches the role between two players every turn until it finds a winner or a draw (no winner/no loser).
+### Start the game 
+
+First of all, you need to run the file with the name main.rb. To run the file you need to open the terminal inside the project and run ```ruby bin/main.rb```.
+
+### Playing the game
+
+In this game each space form the board is representer by a number from 1 to 9, each player chooses the number inside the terminal to play and the program assigns the symbol automatically and start the game, and switches the role between the two players every turn until it finds a winner or a draw (no winner/no loser).
 
 ## Built With
 
